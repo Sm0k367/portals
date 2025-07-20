@@ -1,0 +1,6 @@
+# Audio files would be placed here
+# For demo purposes, the application will use synthetic Web Audio API sounds
+# You can replace these with actual audio files:
+# - glitch-ambient.mp3: Ambient glitch music loop
+# - narration.mp3: Cinematic voiceover narration  
+# - page-turn.mp3: Page turning sound effect
