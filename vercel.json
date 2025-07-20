@@ -10,5 +10,11 @@
         }
       ]
     }
+  ],
+  "routes": [
+    {
+      "src": "/documents/(.*)",
+      "dest": "/portal_documents/$1"
+    }
   ]
 }
