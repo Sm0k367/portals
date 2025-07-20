@@ -1,0 +1,93 @@
+/* General Styling for Portal Documents */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #0056b3;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #a0d9ff;
+    text-decoration: none;
+}
+
+.document-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.document-list li {
+    margin-bottom: 10px;
+}
+
+.document-list li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.document-list li a:hover {
+    background-color: #d6e0e7;
+}
